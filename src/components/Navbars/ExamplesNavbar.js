@@ -57,11 +57,11 @@ function ExamplesNavbar() {
       }
     };
 
-    window.addEventListener("scroll", updateNavbarColor);
+    // window.addEventListener("scroll", updateNavbarColor);
 
-    return function cleanup() {
-      window.removeEventListener("scroll", updateNavbarColor);
-    };
+    // return function cleanup() {
+    //   window.removeEventListener("scroll", updateNavbarColor);
+    // };
   });
   return (
     <Navbar
